@@ -1,0 +1,65 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* Light Mode */
+:root {
+  --ifm-color-primary: #7f7fd5; /* 圖片中的藍紫色淡化版 */
+  --ifm-color-primary-dark: #6563a4; /* 較深藍紫色 */
+  --ifm-color-primary-darker: #4c4a83; /* 更深藍紫色 */
+  --ifm-color-primary-darkest: #333162; /* 最深藍紫色 */
+  --ifm-color-primary-light: #a0a0e5; /* 較淺藍紫色 */
+  --ifm-color-primary-lighter: #c0c0f0; /* 更淺藍紫色 */
+  --ifm-color-primary-lightest: #e0e0fb; /* 最淺藍紫色 */
+  /* 其他 CSS 變數... */
+}
+
+[data-theme="dark"] {
+  /* Dark Mode */
+  --ifm-color-primary: #6264d8; /* 圖片中的藍紫色加強飽和度 */
+  --ifm-color-primary-dark: #4e50b0; /* 深色版本 */
+  --ifm-color-primary-darker: #3a3c88; /* 更深色版本 */
+  --ifm-color-primary-darkest: #272860; /* 最深色版本 */
+  --ifm-color-primary-light: #7f7fd5; /* 較亮的藍紫色 */
+  --ifm-color-primary-lighter: #9f9fd0; /* 更亮的藍紫色 */
+  --ifm-color-primary-lightest: #bfbfeb; /* 最亮的藍紫色 */
+  /* 其他 CSS 變數... */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+
+.hero__title, .hero__subtitle {
+    font-family: 'Roboto Mono', monospace;
+}
+.hero__subtitle {
+  font-weight: bold; /* 或者使用数值，如 600、700 等 */
+}
+
+/* 亮金色 */
+.hero__title {
+  color: #ffd700; /* 亮金色 */
+}
+
+/* 浅灰色 */
+.hero__title {
+  color: #dcdcdc; /* 浅灰色 */
+}
+
+/* 白色 */
+.hero__title {
+  color: #ffffff; /* 白色 */
+}
+
+/* 柔和的粉色 */
+.hero__title {
+  color: #ff99cc; /* 柔和的粉色 */
+}
+
+/* 浅紫色 */
+.hero__title {
+  color: #e6e6fa; /* 浅紫色 */
+}
+
