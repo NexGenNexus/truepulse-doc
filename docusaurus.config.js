@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/TruePulse-LAST.png',
 
   // Set the production url of your site here
-  url: 'https://NexGenNexus.github.io',
+  url: 'https://NexGenNexus.github.io/truepulse-doc',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: process.env.NODE_ENV === "production" ? "/truepulse-doc/" : "/",
