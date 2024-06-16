@@ -13,15 +13,15 @@ const config = {
   favicon: 'img/TruePulse-LAST.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://NexGenNexus.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: process.env.NODE_ENV === "production" ? "/truepulse-doc/" : "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'NexGenNexus',
+  projectName: 'truepulse-doc',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/NexGenNexus',
+            'https://github.com/NexGenNexus/truepulse-doc',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/NexGenNexus',
+            'https://github.com/NexGenNexus/truepulse-doc',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -79,7 +79,7 @@ const config = {
             label: 'Introduction',
           },
           {
-            href: 'https://github.com/NexGenNexus',
+            href: 'https://github.com/NexGenNexus/truepulse-doc',
             label: 'GitHub',
             position: 'right',
           },
